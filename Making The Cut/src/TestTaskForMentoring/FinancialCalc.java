@@ -12,6 +12,7 @@ public class FinancialCalc {
                 Tester inputData = new Tester();
                 Calculus.input = Tester.input;
                 Calculus answered = new Calculus();
+                inputData.CheckForNumbers();
                 if (inputData.ifPositiveSumCred()) {
                         if (inputData.ifPositiveMonPay()) {
                                 if (inputData.ifPositiveIR()) {
